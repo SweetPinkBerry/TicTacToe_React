@@ -1,0 +1,46 @@
+.outer-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tic-tac-container {
+  width: 60vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin: 2vh;
+}
+
+.tic-tac-row {
+  width: 60vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.tic-tac-cell {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+}
+
+.score {
+  border: 3px solid palevioletred;
+  border-radius: 25px;
+  font-size: 5vw;
+  padding: 0vh 2vw;
+}
+
+button {
+  border: 3px solid palevioletred;
+  border-radius: 25px;
+  font-size: 5vw;
+  padding: 0vh 2vw;
+}
